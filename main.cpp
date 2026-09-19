@@ -1,14 +1,24 @@
 #include <iostream>
-#include <string>
 
-// Project 1 — Your Name
-// Track: A finance | B campus | C story
-// CIS 5 Week 05
+// Homework 5 — Your Name
+// CIS 5 Week 05 · Rule engine lite
 
 int main() {
-  std::cout << "=== Project 1 ===\n";
-  // TODO: ≥3 prompts + cin into typed boxes
-  // TODO: named results (not a pile of math in cout)
-  // TODO: labeled reply
+  int score = 0;
+  int attendance = 0;
+
+  // TODO: cout question, then cin, for score and for attendance
+
+  // Edge values: (list just-below / exactly-on / just-above for each threshold here)
+
+  // TODO: invalid branch FIRST — out-of-range input gets its own message
+  //   if (score < 0 || score > 100) { ... }
+
+  // TODO: else if ( ... && ... ) { ... }   best outcome
+  // TODO: else if ( ... ) { ... }          middle outcome
+  // TODO: else { ... }                     the rest
+
+  // TODO: two comments that explain a choice (why invalid first, why && not ||, why >= not >)
+
   return 0;
 }
